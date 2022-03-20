@@ -1,0 +1,80 @@
+
+li ul{
+    position: absolute;
+    margin-left: 105px;
+    padding: 0;
+    top: 0;
+    display: none;
+}
+
+li:hover{
+    background-color: rgb(253, 128, 128);;
+} 
+
+li:hover > ul {
+    display: block;
+}
+
+
+nav > ul{
+    padding: 0;
+    margin: 0;
+    width: 110px;
+}
+
+
+h1{
+    color : gray;
+    border-bottom: 2px solid gray;
+    margin-bottom: 0;
+}
+ 
+body{
+    background-color: rgb(228, 227, 227);
+}
+
+a, li{
+    list-style: none;
+    text-decoration: none;
+}
+
+p{
+    color: gray;
+    margin-left: 110px;
+    margin-top: 10px;
+    width: 1200px;
+    padding: 15px 1px 0px 100px;
+    font-size: medium; 
+}
+
+nav{
+    float: left;
+    border-right: 2px solid gray;
+    padding-bottom: 30px;
+}
+
+ul li{
+    position: relative;
+    padding: 6px;
+    
+}
+
+li>ul>li:hover{
+    background-color: rgb(253, 128, 128);
+}
+
+
+#x:hover {
+    background-color: rgb(233, 181, 181);
+}
+    
+
+
+
+
+
+
+
+
+
+
